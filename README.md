@@ -38,12 +38,14 @@ For further information, please consult the paper:
 
 "Organic Smart Home - Architecture for Energy Management in Intelligent Buildings"
 by Florian Allerding and Hartmut Schmeck in Proceedings of the 2011 workshop
-on Organic computing. http://dl.acm.org/citation.cfm?id=1998654
+on Organic computing. 
+http://dl.acm.org/citation.cfm?id=1998654
 
 or the the PhD thesis:
 
 "Organic Smart Home - Energiemanagement für Intelligente Gebäude"
-by Florian Allerding. http://www.ksp.kit.edu/9783731501817
+by Florian Allerding, KIT Scientific Publishing. 
+http://www.ksp.kit.edu/9783731501817
 
 LICENSE
 
