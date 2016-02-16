@@ -1,0 +1,1 @@
+osh_core_2.0 (GPL License V3)

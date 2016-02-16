@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://osh/Configuration/ControllerBox" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://osh/Configuration/ControllerBox" xmlns:tns2="http://osh/Configuration/System">
+<import namespace="http://osh/Configuration/System" schemaLocation="includes/ConfigurationParameter.xsd"></import>
+
+	<element name="OCConfiguration">
+		<complexType>
+			<sequence>	
+				<element name="simulation" type="boolean"></element>
+				<element name="runnigVirtual" type="boolean"></element>
+				<element name="configfilePathes" type="tns:FilePathes"></element>
+				<element name="globalOcUuid" type="string"></element>
+				<element name="globalControllerClass" type="string"></element>
+				<element minOccurs="0" maxOccurs="unbounded" name="globalControllerParameters" type="tns2:ConfigurationParameter"></element>
+				<element name="globalObserverClass" type="string"></element>
+				<element minOccurs="0" maxOccurs="unbounded" name="globalObserverParameters" type="tns2:ConfigurationParameter"></element>
+				<element name="randomSeed" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+	
+	<complexType name="FilePathes">
+		<sequence>
+			<element name="halConfigPath" type="string"></element>
+			<element name="localObserverDataStoragePath" type="string"></element>
+			<element name="simulationEngineConfigurationPath" type="string"></element>
+			<element name="logFileDirectory" type="string"></element>
+		</sequence>
+	</complexType>
+	
+</schema>

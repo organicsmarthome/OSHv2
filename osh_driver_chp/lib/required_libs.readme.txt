@@ -1,0 +1,4 @@
+commons-logging-1.1.1 (Apache License, Version 2.0)
+httpcore-4.2.1  (Apache License, Version 2.0)
+httpclient-4.2.1 (Apache License, Version 2.0)
+osh_core_2.0 (GPL License V3)

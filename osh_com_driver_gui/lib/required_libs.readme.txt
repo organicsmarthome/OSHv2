@@ -1,0 +1,5 @@
+docking-frames-common-1.1.1 (LGPL 2.1)
+docking-frames-core-1.1.1 (LGPL 2.1)
+jcommon-1.0.17 (LGPL 3)
+jfreechart-1.0.14 (LGPL 3)
+osh_core_2.0 (GPL License V3)

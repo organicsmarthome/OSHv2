@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OCConfiguration xmlns="http://osh/Configuration/ControllerBox" xmlns:ns2="http://osh/Configuration/System">
+    <simulation>true</simulation>
+    <runnigVirtual>false</runnigVirtual>
+    <configfilePathes>
+        <logFileDirectory>logs</logFileDirectory>
+    </configfilePathes>
+    <globalOcUuid>e5ad4b36-d417-4be6-a1c8-c3ad68e52977</globalOcUuid>
+    <globalControllerClass>osh.mgmt.globalcontroller.OSHGlobalControllerJMetal</globalControllerClass>
+    <globalControllerParameters>
+        <ns2:parameterName>epsoptimizationobjective</ns2:parameterName>
+        <ns2:parameterValue>0</ns2:parameterValue>
+        <ns2:parameterType>String</ns2:parameterType>
+    </globalControllerParameters>
+    <globalControllerParameters>
+        <ns2:parameterName>plsoptimizationobjective</ns2:parameterName>
+        <ns2:parameterValue>1</ns2:parameterValue>
+        <ns2:parameterType>String</ns2:parameterType>
+    </globalControllerParameters>
+    <globalControllerParameters>
+        <ns2:parameterName>overlimitfactor</ns2:parameterName>
+        <ns2:parameterValue>1.0</ns2:parameterValue>
+        <ns2:parameterType>String</ns2:parameterType>
+    </globalControllerParameters>
+    <globalControllerParameters>
+        <ns2:parameterName>gaNumEvaluations</ns2:parameterName>
+        <ns2:parameterValue>5264</ns2:parameterValue>
+        <ns2:parameterType>String</ns2:parameterType>
+    </globalControllerParameters>
+    <globalControllerParameters>
+        <ns2:parameterName>gaPopulationSize</ns2:parameterName>
+        <ns2:parameterValue>56</ns2:parameterValue>
+        <ns2:parameterType>String</ns2:parameterType>
+    </globalControllerParameters>
+    <globalControllerParameters>
+        <ns2:parameterName>gaCrossoverProbability</ns2:parameterName>
+        <ns2:parameterValue>0.702</ns2:parameterValue>
+        <ns2:parameterType>String</ns2:parameterType>
+    </globalControllerParameters>
+    <globalControllerParameters>
+        <ns2:parameterName>gaMutationProbability</ns2:parameterName>
+        <ns2:parameterValue>0.102</ns2:parameterValue>
+        <ns2:parameterType>String</ns2:parameterType>
+    </globalControllerParameters>
+    <globalObserverClass>osh.mgmt.globalobserver.OSHGlobalObserver</globalObserverClass>
+    <randomSeed>-398436685533402347</randomSeed>
+</OCConfiguration>

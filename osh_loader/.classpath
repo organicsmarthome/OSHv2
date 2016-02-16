@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_com_driver_gui"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_driver_appliances"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_ems_ea"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_signal_providers"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_comdriver_simulation_logger"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_driver_baseload"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_driver_chp"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_driver_pv"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/osh_busdriver_mielegateway"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/xbin_osh_core"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

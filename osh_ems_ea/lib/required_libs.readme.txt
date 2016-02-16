@@ -1,0 +1,2 @@
+jmetal 4 (LGPL_License V2.1, V3)
+osh_core_2.0 (GPL License V3)

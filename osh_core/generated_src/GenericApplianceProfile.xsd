@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:osh="http://www.aifb.kit.edu/osh" targetNamespace="http://www.aifb.kit.edu/osh"
+	elementFormDefault="qualified">
+	
+	
+	<xs:include schemaLocation="includes/XsdCommonDatatypes.xsd" />
+
+	<xs:complexType name="xsdCt.GenericApplianceProfile">
+		<xs:sequence>
+			<xs:element name="DeviceUUID" type="xs:string" />
+			<xs:element name="DeviceType" type="xs:string" />
+			<xs:element name="DeviceDescription" type="xs:string" />
+			<xs:element name="HasProfile" minOccurs="1" maxOccurs="1"
+				type="xs:boolean" />
+			<xs:element name="Intelligent" minOccurs="1" maxOccurs="1"
+				type="xs:boolean" />
+			<xs:element name="LoadProfiles" type="osh:xsdCt.LoadProfiles" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:element name="GenericApplianceProfile" type="osh:xsdCt.GenericApplianceProfile" />
+
+
+</xs:schema>
